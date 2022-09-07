@@ -1,0 +1,70 @@
+.carousel-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: white;
+    padding: 10px 0 30px 0;
+}
+
+.carousel-title {
+    color: var(--dark-blue);
+    text-align: start;
+    font-size: 28px;
+    padding: 40px 0 0 40px;      
+}
+
+.slide-container{
+    height: 50%;
+    border-radius: 40px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+.slide-container > img{
+    object-fit: contain;
+    transition: all 0.2s ease-in-out;
+}
+
+.slide-container:hover > img{
+    transform: scale(1.2);
+    opacity: 0.7;
+}
+
+.slide-desc{
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 60%;
+    padding-left: 30px;
+    border-top-left-radius: 20px;
+    opacity: 0.7;
+}
+
+.slide-desc > span{
+    color: white;
+    display: block;
+    font-size: 22px;
+    padding: 20px 0 20px 10px;
+}
+
+
+.BrainhubCarousel__arrows {
+    background-color: white;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+
+.BrainhubCarousel__arrows:hover {
+  background-color: rgb(0, 0, 45) !important;
+}
+
+.BrainhubCarousel__arrows:hover > span {
+    border-color: white !important;
+}
+
+.BrainhubCarousel__arrows > span {
+    border-color: var(--dark-blue);
+}

@@ -9,7 +9,7 @@
 }
 
 .scrolling{
-    background-color: black;
+    background-color: var(--dark-blue);
     transition: all .5s ease;
 }
 

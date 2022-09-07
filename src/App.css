@@ -5,7 +5,11 @@
     font-family: 'Teko', sans-serif;
 }
 
+:root{
+    --dark-blue: rgb(0, 0, 45);
+    --light-green: rgb(46, 139, 123);
+}
+
 .App{
     height: 150vh;
-    
 }
