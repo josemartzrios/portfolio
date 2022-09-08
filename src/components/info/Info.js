@@ -5,7 +5,8 @@ const Info = () => {
   return (
     <div className="info-container">   
         <div className="info">
-            <h1>Let´s work together, baby</h1>
+            <h1>"To find yourself, think for yourself."</h1>
+            <p>- Socrates</p>
         </div>
     </div>
   )
