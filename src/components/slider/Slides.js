@@ -4,33 +4,33 @@ import "./Slider.css";
 const slidesInfo = [
   {
     src:
-      "https://cdn.pixabay.com/photo/2016/12/19/08/39/mobile-phone-1917737_960_720.jpg",
+      "https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_1280.jpg",
     alt: "Project 1",
-    desc: "Ecommerce",
+    desc: "E-commerce",
     link: "https://josemartzrios.github.io/shopping-macropay/",
   },
   {
     src:
-      "https://cdn.pixabay.com/photo/2017/10/31/19/05/web-design-2906159_960_720.jpg",
+      "https://images.unsplash.com/photo-1594904351111-a072f80b1a71?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YyVDMyVCM2RpZ298ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60",
     alt: "Project 2",
-    desc: "Project 2",
-    link: "https://josemartzrios.github.io/shopping-macropay/",
+    desc: "Game",
+    link: "https://josemartzrios.github.io/guess-number/",
   },
   {
     src:
-      "https://cdn.pixabay.com/photo/2015/02/05/08/06/macbook-624707_960_720.jpg",
+      "https://images.unsplash.com/photo-1576836165612-8bc9b07e7778?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGMlQzMlQjNkaWdvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
     alt: "Project 3",
-    desc: "Project 3",
-    link: "https://josemartzrios.github.io/shopping-macropay/",
+    desc: "Landing",
+    link: "https://josemartzrios.github.io/cripto-app/",
   },
 ];
 
 
-const slides = slidesInfo.map(slide => (
+const slides = slidesInfo.map(slide => ( 
   <div className="slide-container">
-    <img src={slide.src} alt={slide.alt}></img>
+    <a href={slide.link}><img src={slide.src} alt={slide.alt}></img></a>
     <div className="slide-desc">
-      <span>{slide.desc}</span>
+      <span>{slide.desc}</span> 
     </div>
   </div>
 ));

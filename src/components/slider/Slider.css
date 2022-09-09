@@ -24,6 +24,8 @@
 .slide-container > img{
     object-fit: contain;
     transition: all 0.2s ease-in-out;
+    max-width: 100%;
+    height: auto;
 }
 
 .slide-container:hover > img{
@@ -67,4 +69,8 @@
 
 .BrainhubCarousel__arrows > span {
     border-color: var(--dark-blue);
+}
+
+.slide-desc a:link{
+    text-decoration: none;
 }

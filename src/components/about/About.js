@@ -8,7 +8,7 @@ const About = () => {
         <div className='about-desc'>
           <h3>About me</h3>
           <p>Im looking to be part and create great work groups with high human value and contribute with my soft skills and knowledge.</p>
-          <p>Hopefully, we can work on project with social impact that contributes to reducing inequality in Mexico. </p>
+          <p>Hopefully, we can work on project with social impact that contributes to reduce inequality and use renewable energies in Mexico. </p>
         </div>
     </div>
   )
